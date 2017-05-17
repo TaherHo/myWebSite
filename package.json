@@ -19,13 +19,15 @@
   "dependencies": {
     "handlebars": "^4.0.8",
     "requirejs": "^2.3.3",
+    "requirejs-domready": "^2.0.3",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
     "bower": "^1.8.0",
     "gulp": "^3.9.1",
-    "gulp-util": "latest",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^2.1.0",
+    "gulp-util": "latest",
+    "text": "github:requirejs/text"
   }
 }
