@@ -1,0 +1,31 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/engin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaherHo/myWebSite.git"
+  },
+  "author": "TaHo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaherHo/myWebSite/issues"
+  },
+  "homepage": "https://github.com/TaherHo/myWebSite#readme",
+  "dependencies": {
+    "handlebars": "^4.0.8",
+    "requirejs": "^2.3.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "latest",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0"
+  }
+}

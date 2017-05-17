@@ -1,0 +1,13 @@
+{
+  "name": "my-website",
+  "description": "Testing some Tools & Technology on my website",
+  "main": "src/engin.js",
+  "authors": [
+    "TaHo"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/TaherHo/myWebSite",
+  "dependencies": {
+    "materialize": "^0.98.2"
+  }
+}
