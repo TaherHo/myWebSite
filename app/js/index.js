@@ -1,8 +1,11 @@
 /**
  * Created by taho on 11.05.17.
  */
+require.config( {
+    "waitSeconds" : 6
+    });
 
-require(["text!../../templates/imageTemp.html!strip", "third-party/handlebars.amd", "third-party/domReady"]
+require(["text!../../templates/imageTemp.html!strip", "third-party/handlebars", "third-party/domReady"]
     , function (temp, handlebars, domReady) {
 
         domReady(function () {

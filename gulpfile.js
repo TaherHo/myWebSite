@@ -2,6 +2,8 @@
  * Created by taho on 11.05.17.
  */
 var gulp = require("gulp");
+var rename = require('gulp-rename');
+
 gulp.task('css-producer',function () {
    gulp.src('bower_components/materialize/dist/js/materialize.js').
        pipe(gulp.dest('app/js/third-party'));
@@ -16,6 +18,7 @@ gulp.task('css-producer',function () {
  });
  gulp.task('handlebars', function () {
     gulp.src('node_modules/handlebars/dist/handlebars.amd.js').
+        pipe(rename('handlebars.js')).
         pipe(gulp.dest('app/js/third-party'));
  });
  gulp.task('domReady', function () {

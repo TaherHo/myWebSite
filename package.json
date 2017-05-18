@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TaherHo/myWebSite#readme",
   "dependencies": {
+    "gulp-rename": "^1.2.2",
     "handlebars": "^4.0.8",
     "requirejs": "^2.3.3",
     "requirejs-domready": "^2.0.3",
