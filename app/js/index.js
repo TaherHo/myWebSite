@@ -2,7 +2,7 @@
  * Created by taho on 11.05.17.
  */
 
-require(["text!../../templates/imageTemp.html!strip", "third-party/handlebars", "third-party/domReady"]
+require(["text!../../templates/imageTemp.html!strip", "third-party/handlebars.amd", "third-party/domReady"]
     , function (temp, handlebars, domReady) {
 
         domReady(function () {
@@ -11,7 +11,8 @@ require(["text!../../templates/imageTemp.html!strip", "third-party/handlebars", 
             var template = handlebars.compile(temp);
             var data = {
                 'Title': 'Image-page',
-                'mein_name': 'TaHo'
+                'user_name': 'TaHo',
+                'scr4image':'https://ichef-1.bbci.co.uk/news/624/cpsprodpb/1837F/production/_96099199_450566bf-140d-4623-8688-c151da61d8ed.jpg'
             };
             var instead = template(data).trim();
             $('#images').html(instead);

@@ -15,7 +15,7 @@ gulp.task('css-producer',function () {
          pipe(gulp.dest('app/js/third-party'));
  });
  gulp.task('handlebars', function () {
-    gulp.src('node_modules/handlebars/dist/handlebars.js').
+    gulp.src('node_modules/handlebars/dist/handlebars.amd.js').
         pipe(gulp.dest('app/js/third-party'));
  });
  gulp.task('domReady', function () {
