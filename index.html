@@ -13,14 +13,33 @@
 
 </head>
 <body>
-<br>
-<br>
-<br>
-<p>
-    please insert your name hier:
-</p>
-<div id="images">
+
+<div class="navbar-fixed">
+    <nav id="main-menu">
+        <div class="nav-wrapper light-blue">
+            <div class="horizontal">
+            <div class="brand-logo left-align center-on-small-only" >
+                <a href="#"><img width="80%" class="responsive-img" src="app/images/DOLATELOGO-60px-w.png"></a>
+            </div>
+            <ul id="nav-lang" class="right">
+                <li><a href="javascript:return true;" class="dropdown-button" data-constrainwidth="false"
+                       data-beloworigin="true"
+                       data-activates="language-menu"><i class="large material-icons">language</i></a></li>
+            </ul>
+            <ul id="main-menu-desktop"></ul>
+            <ul id="nav-mobile" class="left hide-on-large-only">
+                <li><a href="javascript:return true;" class="dropdown-button" data-constrainwidth="false"
+                       data-beloworigin="true"
+                       data-activates="main-menu-mobile"><i class="large material-icons">menu</i></a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul id="language-menu"></ul>
+    <ul id="main-menu-mobile"></ul>
 </div>
+
 
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
